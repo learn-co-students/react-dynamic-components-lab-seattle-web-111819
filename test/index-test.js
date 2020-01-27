@@ -45,9 +45,9 @@ describe('Comment', () => {
     expect(comment.text()).to.include("poop")
   })
   
-  it('has the proper class', () => {
-    expect(comment.hasClass('comment')).to.equal(true)
-  })
+  // it('has the proper class', () => {
+  //   expect(comment.hasClass('comment')).to.equal(true)
+  // })
   
 })
 
